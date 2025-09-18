@@ -53,9 +53,8 @@ void loop() {
 } 
 ```
 ## CIRCUIT DIAGRAM:
-![WhatsApp Image 2025-09-17 at 18 50 51_d456631b](https://github.com/user-attachments/assets/1eb85c52-dc45-4c5c-b2d5-0ec13cb6aa51)
 
-
+<img width="771" height="540" alt="image" src="https://github.com/user-attachments/assets/806118e3-5c07-44fa-8e03-4c8ecfbf983c" />
 
 ## OUTPUT:
 ## LAMP OFF:
