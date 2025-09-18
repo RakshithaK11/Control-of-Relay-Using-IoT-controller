@@ -42,13 +42,13 @@ In this Arduino  Relay Control Circuit we have used Arduino to control the relay
 ## PROGRAM:
 ```
 void setup() {
-  pinMode(7,OUTPUT);
+  pinMode(6,OUTPUT);
 }
 
 void loop() {
-  digitalWrite(7,HIGH);
+  digitalWrite(6,HIGH);
   delay(3000);
-  digitalWrite(7,LOW);
+  digitalWrite(6,LOW);
   delay(1000);
 } 
 ```
@@ -59,12 +59,13 @@ void loop() {
 
 ## OUTPUT:
 ## LAMP OFF:
-<img width="555" height="384" alt="image" src="https://github.com/user-attachments/assets/c580b781-23d5-4a8d-84fa-fd68601d491c" />
+
+<img width="1187" height="826" alt="image" src="https://github.com/user-attachments/assets/71149a06-3d55-4c20-9a4f-64fd7d7fd1ab" />
 
 
 ## LAMP ON:
 
-<img width="550" height="386" alt="image" src="https://github.com/user-attachments/assets/084c60c6-4956-4140-9d7b-4987c78b68ac" />
+<img width="1177" height="825" alt="image" src="https://github.com/user-attachments/assets/29524c20-3bd1-42cf-b691-2cf3e18d4aa7" />
 
 ## RESULT:
 
