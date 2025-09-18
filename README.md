@@ -1,5 +1,7 @@
-# EX 02 Control-of-Relay-Using-IoT-controller
 
+# EXP 2: Control of Relay Using IoT controller
+## NAME: RAKSHITHA K
+## REG.NO: 212223110039
 ##  AIM:
 To control the Relay using Arduino controller
 
@@ -38,28 +40,32 @@ When there is no voltage applied to the coil, COM (common) is connected to NC (n
 In this Arduino  Relay Control Circuit we have used Arduino to control the relay via a BC547 transistor. We have connected transistor base to Arduino pin A0 through a 1k resistor. An AC bulb is used for demonstration.Working is simple, we need to make the RELAY Pin (PIN A0) high to make the Relay module ON and make the RELAY pin low to turn off the Relay Module. The AC light will also turn on and off according to Relay.
 
 ## PROGRAM:
-~~~
-int delaypin = A0;
+```
 void setup() {
-  pinMode(delaypin, OUTPUT);
+  pinMode(7,OUTPUT);
 }
-void loop() {
-  digitalWrite(delaypin, HIGH);
-  delay(1000);
-  digitalWrite(delaypin, LOW);
-  delay(1000);
-}
-~~~
 
+void loop() {
+  digitalWrite(7,HIGH);
+  delay(3000);
+  digitalWrite(7,LOW);
+  delay(1000);
+} 
+```
 ## CIRCUIT DIAGRAM:
-<img width="540" height="265" alt="image" src="https://github.com/user-attachments/assets/3f2e52c1-3aec-43c3-b7ff-b5a91dfa9069" />
+![WhatsApp Image 2025-09-17 at 18 50 51_d456631b](https://github.com/user-attachments/assets/1eb85c52-dc45-4c5c-b2d5-0ec13cb6aa51)
+
+
 
 ## OUTPUT:
-## OF:
-<img width="524" height="295" alt="image" src="https://github.com/user-attachments/assets/a51b3bcc-8239-4e2f-863c-b4891cadae12" />
-## ON:
-<img width="519" height="265" alt="image" src="https://github.com/user-attachments/assets/6c727421-19dd-470c-8f56-fa037b2d5d76" />
+## LAMP OFF:
+<img width="555" height="384" alt="image" src="https://github.com/user-attachments/assets/c580b781-23d5-4a8d-84fa-fd68601d491c" />
+
+
+## LAMP ON:
+
+<img width="550" height="386" alt="image" src="https://github.com/user-attachments/assets/084c60c6-4956-4140-9d7b-4987c78b68ac" />
 
 ## RESULT:
 
-Thus the relay is controlled using Arduino controller.
+Thus, the relay is controlled using Arduino controller is done successfully.
